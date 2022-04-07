@@ -1,0 +1,78 @@
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[         0,          0]
+NotebookDataLength[      2278,         77]
+NotebookOptionsPosition[      1577,         51]
+NotebookOutlinePosition[      2045,         69]
+CellTagsIndexPosition[      2002,         66]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Durin\[CloseCurlyQuote]s Bane", "Title",
+ CellChangeTimes->{{3.858255429603986*^9, 
+  3.858255465143176*^9}},ExpressionUUID->"de4ca790-82a6-4f36-925b-\
+5581816a55ff"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"h", "=", 
+   RowBox[{"6.62607015", "*", 
+    RowBox[{"10", "^", 
+     RowBox[{"-", "34"}]}]}]}], " ", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"Plank", "'"}], "s", " ", "Constant"}], "*)"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"k", "=", 
+   RowBox[{"1.380649", "*", 
+    RowBox[{"10", "^", "23"}]}]}], " ", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"Boltzmann", "'"}], "s", " ", "Constant"}], "*)"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"c", "=", "299792458"}], " ", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"Speed", " ", "of", " ", "Light"}], ",", " ", "Vaccuum"}], "*)"}],
+   ";"}]}], "Input",
+ CellChangeTimes->{{3.858255491574833*^9, 3.8582554925608597`*^9}, {
+  3.858255560919959*^9, 3.858255588200685*^9}, {3.858256308617654*^9, 
+  3.858256342074333*^9}, {3.858256390073352*^9, 3.858256404831752*^9}},
+ CellLabel->
+  "In[342]:=",ExpressionUUID->"bc2764af-3cbe-4afb-a1a4-1495baec036b"]
+}, Open  ]]
+},
+WindowSize->{Full, Full},
+WindowMargins->Automatic,
+SpellingDictionaries->{"CorrectWords"->{
+ "Reardon", "Kayson", "Durin\[CloseCurlyQuote]s"}},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 19, 2020)",
+StyleDefinitions->"ReverseColor.nb",
+ExpressionUUID->"0c74a319-1533-4f56-b52d-8f5cab0fc3f7"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[422, 15, 172, 3, 98, "Title",ExpressionUUID->"de4ca790-82a6-4f36-925b-5581816a55ff"],
+Cell[597, 20, 964, 28, 73, "Input",ExpressionUUID->"bc2764af-3cbe-4afb-a1a4-1495baec036b"]
+}, Open  ]]
+}
+]
+*)
+
