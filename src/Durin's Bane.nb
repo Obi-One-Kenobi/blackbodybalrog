@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[      2278,         77]
-NotebookOptionsPosition[      1577,         51]
-NotebookOutlinePosition[      2045,         69]
-CellTagsIndexPosition[      2002,         66]
+NotebookDataLength[      8264,        225]
+NotebookOptionsPosition[      6758,        186]
+NotebookOutlinePosition[      7266,        204]
+CellTagsIndexPosition[      7223,        201]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -15,8 +15,141 @@ Notebook[{
 Cell[CellGroupData[{
 Cell["Durin\[CloseCurlyQuote]s Bane", "Title",
  CellChangeTimes->{{3.858255429603986*^9, 
-  3.858255465143176*^9}},ExpressionUUID->"de4ca790-82a6-4f36-925b-\
-5581816a55ff"],
+  3.858255465143176*^9}},ExpressionUUID->"5aa03a29-cfd6-46f5-a23d-\
+ef132c5dfd8d"],
+
+Cell[CellGroupData[{
+
+Cell["Introduction", "Subsection",
+ CellChangeTimes->{{3.8585055465852146`*^9, 
+  3.858505548429064*^9}},ExpressionUUID->"0d0cc20c-82f2-4d1f-bd91-\
+48b626206c08"],
+
+Cell[TextData[{
+ "Hot objects emit light. The Balrog is a fictional monster ",
+ StyleBox["(* FIXME, Kayson: Please add description of Balrog here *).",
+  FontColor->RGBColor[1, 0, 0]],
+ " This project intends to deepen understanding of Durin\[CloseCurlyQuote]s \
+Bane, answering 3 questions.\n\n\t1. What Temperatures are present on the \
+Balrog?\n\t2. What is a safe distance from the Balrog?\n\t3. What are real \
+analogies for the Balrog, if they exist?"
+}], "Text",
+ CellChangeTimes->{{3.8585055531480675`*^9, 3.8585056393555565`*^9}, 
+   3.858505689697937*^9, {3.858506124163164*^9, 3.858506141163128*^9}, {
+   3.8585072640099025`*^9, 3.858507394283923*^9}, {3.858507457541554*^9, 
+   3.8585075182646093`*^9}, {3.8585077015075116`*^9, 
+   3.8585079078640575`*^9}, {3.8585097935782433`*^9, 
+   3.8585097992501974`*^9}},ExpressionUUID->"4fa982dc-75f5-4095-a1ff-\
+9ba1826d092d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["What Temperatures are present on the Balrog?", "Subsection",
+ CellChangeTimes->{{3.858507914084577*^9, 
+  3.85850792138208*^9}},ExpressionUUID->"4e89871f-44a6-464a-aaa4-\
+3935bb89d50e"],
+
+Cell[TextData[{
+ "A hot object glows, and the peak wavelength of light emitted is dependent \
+upon",
+ StyleBox[" temperature. Thi",
+  FontColor->RGBColor[
+   0.6862745098039216, 0.6862745098039216, 0.6862745098039216]],
+ "s Wikipedia article as well as this youtube video help explain blackbody \
+radiation.",
+ StyleBox["(*FIXME: add hyperlinks *).  ",
+  FontColor->RGBColor[1, 0, 0]],
+ StyleBox["Blackbody radiation is mathematically defined as follows.",
+  FontColor->RGBColor[
+   0.6862745098039216, 0.6862745098039216, 0.6862745098039216]]
+}], "Text",
+ CellChangeTimes->{{3.8585079353292723`*^9, 3.85850805215947*^9}, {
+  3.858508082893224*^9, 3.858508167679287*^9}, {3.8585082370197363`*^9, 
+  3.85850828218357*^9}},ExpressionUUID->"1e8a4931-c206-4a37-992c-\
+186ba7c9bad0"],
+
+Cell[CellGroupData[{
+
+Cell["Blackbody Radiation", "Subsubsection",
+ CellChangeTimes->{{3.8585056959893694`*^9, 
+  3.858505702020934*^9}},ExpressionUUID->"9373bd42-3b64-4a0a-a0a9-\
+426aa683f0a9"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   SubscriptBox["B", "v"], "[", 
+   RowBox[{"v_", ",", "T_"}], "]"}], " ", ":=", " ", 
+  RowBox[{
+   FractionBox[
+    RowBox[{"2", "*", "h", "*", 
+     SuperscriptBox["v", "3"]}], 
+    SuperscriptBox["c", "2"]], "*", 
+   FractionBox["1", 
+    RowBox[{
+     SuperscriptBox["\[ExponentialE]", 
+      FractionBox[
+       RowBox[{"h", "*", "v"}], 
+       RowBox[{"k", "*", "T"}]]], "-", "1"}]]}]}]], "Input",
+ CellChangeTimes->{{3.8585057058820047`*^9, 3.8585057748535833`*^9}, {
+  3.8585094644082007`*^9, 3.858509469883264*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"28493a3e-404c-4fd9-9904-5f69ca898389"],
+
+Cell[TextData[{
+ "This function has constants h, k, and c.\nh is Planck\[CloseCurlyQuote]s \
+Constant, 6.626 * ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", 
+    RowBox[{"-", "34"}]], TraditionalForm]],ExpressionUUID->
+  "e592793c-7f78-4090-a822-f90eb4b3fcc6"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["joules", "Hertz"], TraditionalForm]],ExpressionUUID->
+  "8b89cbbd-999d-42a8-b9a6-63af469ed769"],
+ ".\nk is Boltzmann\[CloseCurlyQuote]s Constant, 1.38 * ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "23"], TraditionalForm]],ExpressionUUID->
+  "d3d45d66-c070-45e6-bbd1-8d0b74fb7802"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["joules", "Kelvin"], TraditionalForm]],ExpressionUUID->
+  "0198f1fd-8fb8-48cc-9af0-f5f508422f35"],
+ ".\nc is the Speed of Light in a Vacuum, 2.99 * ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["10", "8"], TraditionalForm]],ExpressionUUID->
+  "65692ca5-26a9-4381-abb8-72666ab6e7d3"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox["meters", "second"], TraditionalForm]],ExpressionUUID->
+  "e6fae10a-31b5-46ab-9455-711b23c28130"],
+ ".\n\nIn words, this says \[OpenCurlyDoubleQuote]the spectral emittance as a \
+function of light frequency and temperature is the quotient of that frequency\
+\[CloseCurlyQuote]s product with twice Planck\[CloseCurlyQuote]s Constant and \
+the square of the speed of light ",
+ StyleBox["and",
+  FontSlant->"Italic"],
+ " the inverse of the difference of the growth constant ",
+ StyleBox["(*FIXEME: add hyperlink to youtube video*). ",
+  FontColor->RGBColor[1, 0, 0]],
+ "raised to the quotient of the product of Planck\[CloseCurlyQuote]s constant \
+with the frequency and Boltzmann\[CloseCurlyQuote]s constant with \
+Temperature. \nThat wording of blackbody radiation is provided here to assist \
+comprehension of the empirical data found below.   ",
+ " "
+}], "Text",
+ CellChangeTimes->{{3.8585083150828066`*^9, 3.8585083458902035`*^9}, {
+  3.858508376572736*^9, 3.8585084478865137`*^9}, {3.85850909808984*^9, 
+  3.8585092283391957`*^9}, {3.8585092598096285`*^9, 3.8585096183638115`*^9}, {
+  3.858509661815918*^9, 3.8585097071467714`*^9}, {3.8585097561494827`*^9, 
+  3.8585097681572437`*^9}},ExpressionUUID->"29a8531d-2544-4c38-9176-\
+c525370fac3c"],
 
 Cell[BoxData[{
  RowBox[{
@@ -26,7 +159,7 @@ Cell[BoxData[{
      RowBox[{"-", "34"}]}]}]}], " ", 
   RowBox[{"(*", 
    RowBox[{
-    RowBox[{"Plank", "'"}], "s", " ", "Constant"}], "*)"}], 
+    RowBox[{"Planck", "'"}], "s", " ", "Constant"}], "*)"}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"k", "=", 
@@ -43,18 +176,20 @@ Cell[BoxData[{
     RowBox[{"Speed", " ", "of", " ", "Light"}], ",", " ", "Vaccuum"}], "*)"}],
    ";"}]}], "Input",
  CellChangeTimes->{{3.858255491574833*^9, 3.8582554925608597`*^9}, {
-  3.858255560919959*^9, 3.858255588200685*^9}, {3.858256308617654*^9, 
-  3.858256342074333*^9}, {3.858256390073352*^9, 3.858256404831752*^9}},
- CellLabel->
-  "In[342]:=",ExpressionUUID->"bc2764af-3cbe-4afb-a1a4-1495baec036b"]
+   3.858255560919959*^9, 3.858255588200685*^9}, {3.858256308617654*^9, 
+   3.858256342074333*^9}, {3.858256390073352*^9, 3.858256404831752*^9}, 
+   3.8585094019312696`*^9},ExpressionUUID->"916bf21d-42b6-41be-afb5-\
+9a9afd9fdb35"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 },
-WindowSize->{Full, Full},
-WindowMargins->Automatic,
+WindowMargins->{{
+  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
 SpellingDictionaries->{"CorrectWords"->{
  "Reardon", "Kayson", "Durin\[CloseCurlyQuote]s"}},
-FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 19, 2020)",
-StyleDefinitions->"ReverseColor.nb",
+FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (February 4, 2022)",
+StyleDefinitions->"Dark Theme.nb",
 ExpressionUUID->"0c74a319-1533-4f56-b52d-8f5cab0fc3f7"
 ]
 (* End of Notebook Content *)
@@ -69,8 +204,21 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[422, 15, 172, 3, 98, "Title",ExpressionUUID->"de4ca790-82a6-4f36-925b-5581816a55ff"],
-Cell[597, 20, 964, 28, 73, "Input",ExpressionUUID->"bc2764af-3cbe-4afb-a1a4-1495baec036b"]
+Cell[422, 15, 172, 3, 98, "Title",ExpressionUUID->"5aa03a29-cfd6-46f5-a23d-ef132c5dfd8d"],
+Cell[CellGroupData[{
+Cell[619, 22, 162, 3, 70, "Subsection",ExpressionUUID->"0d0cc20c-82f2-4d1f-bd91-48b626206c08"],
+Cell[784, 27, 880, 15, 168, "Text",ExpressionUUID->"4fa982dc-75f5-4095-a1ff-9ba1826d092d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1701, 47, 191, 3, 70, "Subsection",ExpressionUUID->"4e89871f-44a6-464a-aaa4-3935bb89d50e"],
+Cell[1895, 52, 778, 17, 64, "Text",ExpressionUUID->"1e8a4931-c206-4a37-992c-186ba7c9bad0"],
+Cell[CellGroupData[{
+Cell[2698, 73, 172, 3, 45, "Subsubsection",ExpressionUUID->"9373bd42-3b64-4a0a-a0a9-426aa683f0a9"],
+Cell[2873, 78, 638, 18, 74, "Input",ExpressionUUID->"28493a3e-404c-4fd9-9904-5f69ca898389"],
+Cell[3514, 98, 2232, 53, 252, "Text",ExpressionUUID->"29a8531d-2544-4c38-9176-c525370fac3c"],
+Cell[5749, 153, 969, 28, 83, "Input",ExpressionUUID->"916bf21d-42b6-41be-afb5-9a9afd9fdb35"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 }
 ]
